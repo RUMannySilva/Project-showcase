@@ -76,7 +76,7 @@ export default function Home() {
           <div className="hidden md:block">
             <div className="w-full aspect-[4/5] relative overflow-hidden">
               <Image
-                src="/portrait.jpg"
+                src="/Manny.jpeg"
                 alt="Portrait"
                 fill
                 className="object-cover"
@@ -133,13 +133,25 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Visual elements placeholder */}
+          {/* Visual elements */}
           <div className="grid md:grid-cols-2 gap-8 mt-24">
-            <div className="w-full aspect-[4/3] bg-[#f0f0f0] border border-[#e5e5e5] flex items-center justify-center">
-              <div className="text-[#999] text-sm">UI wireframes illustration</div>
+            <div className="w-full aspect-[4/3] relative overflow-hidden border border-[#e5e5e5]">
+              <Image
+                src="/objecthover.jpg"
+                alt="UI wireframes illustration"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
             </div>
-            <div className="w-full aspect-[4/3] bg-[#f0f0f0] border border-[#e5e5e5] flex items-center justify-center">
-              <div className="text-[#999] text-sm">Abstract isometric structure</div>
+            <div className="w-full aspect-[4/3] relative overflow-hidden border border-[#e5e5e5]">
+              <Image
+                src="/objecthover.jpg"
+                alt="Abstract isometric structure"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
             </div>
           </div>
         </div>
