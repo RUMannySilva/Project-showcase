@@ -33,3 +33,4 @@ Docker is best suited for production deployments.
 - The Dockerfile uses multi-stage builds for optimal image size
 - Standalone output is enabled in `next.config.ts` for Docker compatibility
 
+
